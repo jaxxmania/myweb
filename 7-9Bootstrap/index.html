@@ -176,19 +176,25 @@
                       <h3 class="page-header text-center">Get In touch with Us</h3>
                   <div class="col-md-6">
 
-                      <form>
+                      <form class="form-horizontal">
     <div class="form-group">
-        <label for="inputEmail">Email</label>
+
+
+        <label for="inputEmail" class="control-label col-sm-3">Email</label>
+        <div class="col-sm-9">
         <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
     </div>
     <div class="form-group">
-        <label for="inputPassword">Password</label>
-        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <label for="inputPassword" class="control-label col-sm-3">Password</label>
+        <div class="col-sm-9"><input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        </div>
     </div>
-    <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Login</button>
+   <div class="form-group">
+     <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Login</button>
+  </div>
+  </div>
 </form>
 
 
